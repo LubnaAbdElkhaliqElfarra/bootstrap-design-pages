@@ -1,0 +1,521 @@
+body{overflow: hidden}
+/*================================================
+ ==================Navbar part 1 ,2==================
+================================================== */
+h1 ,h2 ,h3 h4 , .lead{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* navbar link */
+.navbar-inverse .navbar-nav > li > a{
+    color: #BBB;
+    font-size: 16px;
+}
+/* Brand Name */
+.navbar-inverse .navbar-brand{
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;    
+}
+
+/* Droup menue */
+.dropdown-menu{
+    background-color: #333;
+    /* border-top: solid #E41B17; */
+    min-width: 200px;
+    
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 6px 12px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus{
+    /* background: #E41B17; */
+    color: #fff;  
+    padding-left: 25px;
+ }
+ .dropdown-menu .divider { background-color: rgb(82, 8, 7);}
+ 
+ .navbar-right{ margin-right: 60px;}
+
+ .navbar > .container .navbar-brand, .navbar >
+  .container-fluid .navbar-brand{
+    margin-left: 80px; 
+    margin-top: -6px;
+ }
+ /* navbar toggel */
+ .navbar-toggle{ margin-top: 18px;}
+
+ /*==========================================
+ ==================Carousel==================
+============================================= */
+
+.item{
+    max-width: 1450px;
+    max-height: 550px;
+}
+.carousel-caption{
+    bottom: 80px;
+    background: rgba(3, 3, 3, 0.5);
+}
+.carousel-indicators {bottom: 0;}
+
+.carousel-indicators li{border: 1px solid #EEE;}
+
+.carousel-inner > .item > img {width:100%; }
+
+/* .carousel-indicators .active{
+    background: #E41B17;
+} */
+
+/*==========================================
+ ==================About==================
+============================================= */
+.about{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.about .lead{
+    font-size: 18px;
+    margin-top:15px;
+    color:#888;
+}
+.about h1{font-weight: bold;}
+/* .about h1 span{
+    color: #E41B17;
+} */
+
+/*==========================================
+ ==================Features==================
+============================================= */
+.features{
+    background: #EEE;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.features .h1{margin-bottom: 50px;}
+
+.features .feat{margin-bottom:20px; }
+
+.features .feat p{line-height: 2em;}
+
+.features .feat span.glyphicon{
+    font-size: 20px;
+    color: #666;
+}
+/*==========================================
+ ==================Testimonials=============
+============================================ */
+.testimon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimon .h1{
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.testimon .lead{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+.testimon span{
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #E41B17; */
+}
+.testimon .carousel-inner{min-height: 160px;}
+
+.testimon .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimon .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.testimon .carousel-indicators li.active{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+    /* border: 3px solid #E41B17; */
+}
+
+.testimon .carousel-indicators li img{
+    max-width: 100%;
+    height: 80px;
+}
+
+/*==========================================
+ ==================Price Table=============
+============================================ */
+.price-table{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #EEE;
+}
+.price-table .h1{margin-bottom: 40px;}
+
+.price-table .price-box{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.price-table .price-box h3{margin: 5px 0 15px;}
+
+.price-table .price-box p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    line-height: 100px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    border: 2px solid #fff;
+}
+.price-table .price-box li{
+    line-height: 250%;
+    font-size:18px;
+}
+.price-table .price-box a{margin-bottom: 5px;}
+
+.price-table .price-box:hover p{
+    -webkit-transform:scale(1.1 ,1.1) rotate(360deg);
+    -moz-transform:scale(1.1 ,1.1) rotate(360deg);
+    -o-transform:scale(1.1 ,1.1) rotate(360deg);
+    transform:scale(1.1 ,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf; 
+}
+/*==========================================
+ ==================our Team=============
+============================================ */
+.our-team{
+    background: url('../img/pic7.jpg')no-repeat center center fixed;
+    width: 100%;
+    min-height: 520px; 
+}
+.our-team .team{
+    color: white;
+    background: rgba(2, 2, 2, 0.75);
+    min-height: 520px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team .h1{ margin-bottom: 60px;}
+
+.our-team .person img{
+    width: 120px;
+    height: 120px;
+}
+.our-team .person{margin-bottom: 40px;}
+
+/*==========================================
+ ==================Subscribe=============
+============================================ */
+.subscribe{
+    padding-top: 40px;
+    padding-bottom:70px;
+    background: #EEE;
+}
+.subscribe .h1{
+    color:#888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p{margin-bottom: 30px;}
+
+.subscribe .form-control{
+    margin-right: -5px;
+    width: 300px;
+    border-radius: 0;
+}
+.subscribe .btn-danger{border-radius: 0;}
+
+/*==========================================
+ ==================Statstics style=============
+============================================ */
+.stats{
+    background: url('../img/03.jpg') no-repeat center center fixed;
+    min-height: 300px;
+    background-size: cover;
+}
+.stats .data{
+    background: rgba(2, 2, 2, 0.5);
+    color: #b6b5b6;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.stats .h1{margin-bottom: 60px;}
+
+.stats .inner-stat:hover{
+    color: #fff;
+    -webkit-transition: all 0.5s ease ease-in-out;
+    -moz-transition: all 0.5s ease ease-in-out;
+    -o-transition: all 0.5s ease ease-in-out;
+    transition: all 0.5s ease ease-in-out;
+    margin-bottom: 20px;
+}
+.stats p {
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 0;
+}
+.stats span{font-size: 18px;}
+ /*==========================================
+ ==================Our Skills=================
+============================================= */
+.our-skill{
+    padding-top:40px;
+    padding-bottom: 70px;
+}
+.our-skill .h1 {margin-bottom: 60px;}
+
+.our-skill h3 {
+   font-weight: bold;
+   margin-top: 0;
+}
+.our-skill .progress{ height: 35px;}
+
+.our-skill .progress .progress-bar{
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+.our-skill .skills-info{margin-left: 50px;}
+
+ /*==========================================
+ ==================Contact-us=================
+============================================= */
+.contact-us{
+    background: url('../img/con2.jpg') no-repeat center center fixed;
+    min-height: 300px;
+    background-size: cover;
+}
+.contact-us .filed{
+    min-height: 300px;
+    background: rgba(2, 2, 2, 0.5);
+    color: #ddd;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us p{margin-bottom: 40px;}
+
+.contact-us textarea{height: 108px;}
+
+.contact-us input[type='text'],
+.contact-us textarea {
+    background: rgb(82, 78, 78 ,0.8);
+    color: #fff;
+    border :0;
+}
+ /*==========================================
+ ==================Our client=================
+============================================= */
+.our-client{
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.our-client .img-responsive{
+ width: 128px;
+ height: 80px;
+ opacity: 0.4;
+ filter:alpha(opacity=40);
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.our-client .img-responsive:hover{ opacity: 1;}
+
+/*==========================================
+ ==================Footer=================
+============================================= */
+.footer{
+    background: #111;
+    color: #aaa;
+    padding-top:10px;
+}
+.footer a{color: #aaa;}
+
+.footer a:hover{color: #fff;}
+
+.footer h3{
+    /* color: #E41B17; */
+    letter-spacing: 1px;
+    margin: 20px 0  20px;
+}
+.footer .three-colums{
+    overflow: hidden;
+    padding: 15px 0;
+}
+.footer .three-colums li{
+   width: 33.3333%;
+   float: left;
+   padding: 5px 0;
+}
+.footer img{
+    width: 48px;
+    height: 48px;
+}
+.footer .social-list{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-list li{
+    float: left;
+    margin-right: 4px;
+    opacity: 0.7;
+    filter: alpha(opacity=0.7);
+}
+.footer .social-list li:hover{opacity: 1;}
+
+.footer .work-img{
+    width: 150px;
+    height: 100px;
+}
+.footer .img-thumbnail{
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #666;
+    margin-bottom: 5px;
+}
+.footer .copyright{
+    background: #333;
+    color:#aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+/* .copyright span{
+    color: #E41B17; 
+} */
+
+/*==========================================
+ ==================Option Box=================
+============================================= */
+.option-box{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+.option-box .color-option{
+    float: left;
+    color: #FFF;
+    background: #333;
+    padding: 10px;
+    width: 200px;
+    /* border: 4px solid #E41B17; */
+    display: none;
+}
+.option-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check{
+    padding: 5px;
+    /* background: #E41B17; */
+    color: #fff;
+    cursor: pointer;
+}
+/*================================================
+ ==================Loading Secreen==================
+================================================== */
+
+.loading-overlay{
+    color: #fff;
+    background-color: #222;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.spinner {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 300px auto;
+  }
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+  /*-----------------------------------------------
+  -------------------- Start Scrol Up -------------
+  -------------------------------------------------*/
+  #scroll-top{
+      width: 50px;
+      height: 40px;
+      text-align: center;
+      color: #bbb;
+      background-color: #272727;
+      position: fixed;
+      right: 15px;
+      bottom: 10px;
+      z-index: 9999;
+      display: none;
+      cursor: pointer;
+  }
+  #scrol-top:hover{ background-color: #666; }

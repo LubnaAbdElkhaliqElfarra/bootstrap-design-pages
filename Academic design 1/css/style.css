@@ -1,0 +1,83 @@
+/* ***********Start Navbar********** */
+.navbar-light {
+    padding: 20px;
+}
+.navbar-collapse{
+    margin-left: 50px;
+}
+.navbar-collapse ul li{
+    margin-right: 30px;
+
+}
+.navbar-brand{
+    margin-right: 50px; 
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+
+}
+.navbar-brand .lightimg {
+    width: 35px;
+    height: 35px;
+   
+}
+/* *********************Start Header**************** */
+.header {
+    padding: 70px 0;
+}
+.header .head-title{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+.header .get-btn{
+    background-color: transparent;
+    padding: 5px 70px 5px 70px;
+    border: 1px solid #000;
+}
+.header .img-code img {
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+}
+@media(max-width:1199.98px){
+    .header .img-code img {
+       display: none;
+    }
+
+}
+@media(max-width:991.98px){
+    .header .container .row {
+       display: flex;
+       justify-content: center;
+    }
+
+}
+/* ************Start main*********** */
+.main{
+    padding: 30px 0;
+}
+.line {
+    background-color: #000;
+    height: 1px;
+    margin-bottom: 30px;
+}
+.main h2{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.main img {
+    width: 100%;
+}
+/* ************Start footer******* */
+.footer h2{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.footer .detalis p{
+    font-size: 18px;
+}
+.copy{
+    margin-bottom: 20px;
+   
+}

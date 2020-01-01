@@ -1,0 +1,26 @@
+/* From 0 to Mobile and Tablit (Smart Phone)*/
+@media(max-width:767px)
+{
+    .subscribe .form-control{
+        margin: 20px auto;
+    }
+    .navbar-fixed-top .navbar-collapse,
+     .navbar-fixed-bottom .navbar-collapse{
+         max-height: none;
+     }
+}
+/* From Small To Medium (Small Screen)*/
+@media(min-width:768px) and (max-width:991px)
+{
+   
+}
+/* Medium Screen */
+@media(min-width:992px) and (max-width:1199px)
+{
+   
+}
+/* larg Screen */
+@media(min-width:1200px)
+{
+   
+}
